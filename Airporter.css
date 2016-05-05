@@ -5,7 +5,7 @@ html {
 }
 
 body{
-	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	background-image:url(https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b09f84e8e8fd58ee91faf817b9f903d7);
 	background-size: cover;
 	background-position: center;
@@ -30,7 +30,7 @@ body{
  .navbar-nav>li>a {
     color: #ffffff;
     background:none;
-    font-weight: bold;
+    font-weight: 800;
 }
 
  .navbar-nav>li>a:hover{
@@ -39,7 +39,8 @@ body{
 }
 
 .jumbotron{
-	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Maven Pro', sans-serif;
+	line-height: 1.43;
 	color: #ffffff;
 	padding-left: 40px;
 	padding-right:30px;
@@ -47,12 +48,13 @@ body{
 	background: rgba(0,0,0,0.85);
 	margin: 70px;
 	position:center;
-	opacity: 0.90;
+	opacity: 0.95;
 	//background: transparent;
 }
 
 .jumbotron p{
 	 color: #ecf0f1;
+	 font-size：2rem；
 	 font-weight: 200;
 
 }
