@@ -12,7 +12,7 @@ body{
 .navbar-brand {
     color: #ffffff;
     font-family: 'Copperplate Gothic Light', fantasy;
-
+    font-weight: bold;
 }
 
 .navbar-brand:hover{
@@ -23,6 +23,7 @@ body{
  .navbar-nav>li>a {
     color: #ffffff;
     background:none;
+    font-weight: bold;
 }
 
  .navbar-nav>li>a:hover{
@@ -35,14 +36,15 @@ body{
 	padding-left: 30px;
 	padding-right:30px;
 	background: #333333;
-	margin: 50px;
+	margin: 70px;
 	position:center;
 	opacity: 0.85;
 	//background: transparent;
 }
 
-p{
+.jumbotron p{
 	 color: #ecf0f1;
+	 font-weight: 100;
 
 }
 
